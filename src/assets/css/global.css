@@ -7,7 +7,6 @@
     div.noti-banner a {position:absolute;top:29px;right:30px;}
     .note-title {display:block;margin:15px 0 0 0;padding:17px 20px 20px 20px;border:1px solid #ccc;background:#fff;font-size:17px;line-height:21px;color:#333;text-align:center;}
     
-    /* 온라인 해지 */
     .counselor {position: relative;padding:23px 0 23px 88px;font-size: 15px;line-height:18px;color: #333;border-left:1px solid #ccc;border-right:1px solid #ccc;background: no-repeat 29px 50%;}
     .endPoint-wrap {margin: 15px 0 15px 0;text-align:center;border:1px solid #ddd;background-color:#fbfbfb;overflow:hidden;} /* Line 11 수정 */
     .endPoint-wrap > div {float:left;min-height:134px;padding:28px 25px;width:305px;text-align:left;background-color:#FFF;overflow:hidden;}
@@ -136,26 +135,6 @@
     
     .cellphone-choice {display:block;margin:10px 0 0 -20px;padding:10px 20px 10px;width:100%;font-weight:normal;font-size:13px;color:#666;background:#f8f8f8 no-repeat 10px 16px;text-align:left;line-height:18px;}
     
-    /* 분실 신고 */
-    div.additional {margin:0 1px;padding:32px 0 0 0;background:#f2f2f2;overflow:hidden;}
-     div.additional div.service {position:relative;float:left;width:355px;min-height:128px;padding:0 0 0 28px;}
-     div.additional div.service:first-child {border-right:1px solid #ccc;}
-     div.additional div.service .tit {font-size:15px;line-height:21px;color:#666;}
-     div.additional div.service .desc {margin:10px 0 0 0;font-size:13px;line-height:21px;}
-     div.additional div.service .btn26-white {position:absolute;bottom:0;left:28px;}
-    
-    div.year-space {position:relative;margin:10px 0 0 0;}
-    .table-tit {margin:20px 0 0 0;font-size:15px;font-weight:normal;}
-    
-    /* 임대폰신청 */
-    div.store-choice {margin:20px 0 0 0;padding:29px;border:1px solid #ddd;background:#fff  no-repeat 100% 19px;}
-     div.store-choice .title {font-size:17px;}
-     div.store-choice .desc {margin:12px 0 0 0;font-size:15px;line-height:21px;}
-    div.checkboxWrap {padding-top:15px;border-top:1px dotted #ddd;}
-     div.checkboxWrap label {margin-bottom:6px !important;}
-     div.checkboxWrap ul {}
-    
-    /* 잠금비밀번호 관리 */
     ul.cscenter-list {margin:20px 0 0 0;padding:40px 29px;border:1px solid #ddd;background:#fff;overflow:hidden;}
      ul.cscenter-list li {position:relative;float:left;width:216px;min-height:82px;padding:80px 0 0 0;border-left:1px solid #ddd;text-align:center;}
      ul.cscenter-list li.samsung {background: no-repeat 50% 0;}
@@ -171,7 +150,6 @@
      ul.cscenter-list li .tell {margin:14px 0 0 0;}
      ul.cscenter-list li .btn30-white {position:absolute;bottom:0;left:50%;margin:0 0 0 -40px;}
     
-    /* 요금할인 재약정 */
     .text-njoin {font-size:19px;line-height:21px;color:#333;text-align:center;}
      .text-njoin .pointer {display:block;margin:12px 0 0 0;font-size:15px;font-weight:normal;}
     div.try-user {margin:27px 0 0 0;padding:29px;border:1px solid #ddd;background:#fff;}
@@ -184,7 +162,6 @@
      ul.rejoin li .icon img:first-child {margin:0;}
      ul.rejoin li .picture {display:block;margin:25px 0 0 0;}
     
-    /* 결합 추가 신청 */
     ul.add-product {margin:10px 0 0 0;}
      ul.add-product li {position:relative;margin:4px 0 0 0;padding:6px 0 8px 9px;border:1px solid #ccc;border-radius:2px;}
      ul.add-product li .type {margin:0 20px 0 0;font-weight:normal;}
@@ -214,7 +191,6 @@
     .tgtCounts .tgtCount:before {content:"/";padding-right:3px;} /* 0303 수정 */
     .tgtCounts .tgtCount:first-child:before {content:"";padding-right:0;} /* 0303 수정 */
     
-    /* 가입정보 */
     ul.information {padding:36px 0;border-right:1px solid #ddd;border-bottom:1px solid #ddd;border-left:1px solid #ddd;}
      ul.information:after {content:".";clear:both;display:block;height:0;visibility:hidden;font-size:0;line-height:0;}
      ul.information li {position:relative;float:left;min-height:130px;border-left:1px solid #ddd;font-weight:bold;font-size:15px;text-align:center;color:#000;}
@@ -274,8 +250,6 @@
      ul.addr-information li .tit {top:3px;}
      ul.addr-information li .btn30-white {position:absolute;top:0;right:0;}
     
-    
-    /* 요금할인 재약정 25% */
     .discount-price {padding:40px 29px 30px 29px;border-top:1px solid #ccc;border-left:1px solid #ddd;border-right:1px solid #ddd;background: no-repeat 100% 50%;}
     .discount-price .title{font-size:21px;}
     .discount-price .desc {margin:21px 0 0 0;font-size:13px;line-height:18px;color:#666;}
@@ -286,7 +260,6 @@
      /* 2017-09-13 추가 */
      /*.touch-join .list-dot {border-top:1px solid #666;padding:15px 0 0 0;}*/
      /* //2017-09-13 추가 */
-     /** DR-2023-51868 요금할인(선택약정) 예약 가입 기능 추가 */
      .touch-join .discount-25 {display:block;color:#000;font-weight:bold;font-size:19px;line-height:21px;text-align:center;letter-spacing:-0.050em;} /* Line 330 수정 */
      .touch-join .discount-25desc {margin:25px 0 0 0;padding:25px 0 0 0;border-top:1px solid #666;font-size:15px;text-align:center;line-height:20px;color:#df2428;} /* Line 331 수정 */
      .touch-join .discount-25desc-left {margin:25px 0 0 0;padding:25px 0 0 0;border-top:1px solid #ccc;font-size:15px;line-height:20px;}
@@ -436,18 +409,10 @@ div.name-agreement .new-checkbox {top:51px;}
 
 .cellphone-choice {display:block;margin:10px 0 0 -20px;padding:10px 20px 10px;width:100%;font-weight:normal;font-size:13px;color:#666;background:#f8f8f8 no-repeat 10px 16px;text-align:left;line-height:18px;}
 
-/* 분실 신고 */
-div.additional {margin:0 1px;padding:32px 0 0 0;background:#f2f2f2;overflow:hidden;}
- div.additional div.service {position:relative;float:left;width:355px;min-height:128px;padding:0 0 0 28px;}
- div.additional div.service:first-child {border-right:1px solid #ccc;}
- div.additional div.service .tit {font-size:15px;line-height:21px;color:#666;}
- div.additional div.service .desc {margin:10px 0 0 0;font-size:13px;line-height:21px;}
- div.additional div.service .btn26-white {position:absolute;bottom:0;left:28px;}
 
 div.year-space {position:relative;margin:10px 0 0 0;}
 .table-tit {margin:20px 0 0 0;font-size:15px;font-weight:normal;}
 
-/* 요금할인 재약정 */
 .text-njoin {font-size:19px;line-height:21px;color:#333;text-align:center;}
  .text-njoin .pointer {display:block;margin:12px 0 0 0;font-size:15px;font-weight:normal;}
 div.try-user {margin:27px 0 0 0;padding:29px;border:1px solid #ddd;background:#fff;}
@@ -460,7 +425,6 @@ ul.rejoin {padding:30px 29px;border:1px solid #ddd;border-bottom:0;overflow:hidd
  ul.rejoin li .icon img:first-child {margin:0;}
  ul.rejoin li .picture {display:block;margin:25px 0 0 0;}
 
-/* 결합 추가 신청 */
 ul.add-product {margin:10px 0 0 0;}
  ul.add-product li {position:relative;margin:4px 0 0 0;padding:6px 0 8px 9px;border:1px solid #ccc;border-radius:2px;}
  ul.add-product li .type {margin:0 20px 0 0;font-weight:normal;}
@@ -490,7 +454,6 @@ div.convolution {margin:30px 0 0 0;padding:44px 29px 30px 29px;border-top:1px so
 .tgtCounts .tgtCount:before {content:"/";padding-right:3px;} /* 0303 수정 */
 .tgtCounts .tgtCount:first-child:before {content:"";padding-right:0;} /* 0303 수정 */
 
-/* 가입정보 */
 ul.information {padding:36px 0;border-right:1px solid #ddd;border-bottom:1px solid #ddd;border-left:1px solid #ddd;}
  ul.information:after {content:".";clear:both;display:block;height:0;visibility:hidden;font-size:0;line-height:0;}
  ul.information li {position:relative;float:left;min-height:130px;border-left:1px solid #ddd;font-weight:bold;font-size:15px;text-align:center;color:#000;}
@@ -556,7 +519,6 @@ ul.information li.join .location #orgNm {
  color:#333;
 }
 
-/* 요금할인 재약정 25% */
 .discount-price {padding:40px 29px 30px 29px;border-top:1px solid #ccc;border-left:1px solid #ddd;border-right:1px solid #ddd;background: no-repeat 100% 50%;}
 .discount-price .title{font-size:21px;}
 .discount-price .desc {margin:21px 0 0 0;font-size:13px;line-height:18px;color:#666;}
@@ -567,7 +529,6 @@ ul.information li.join .location #orgNm {
  /* 2017-09-13 추가 */
  /*.touch-join .list-dot {border-top:1px solid #666;padding:15px 0 0 0;}*/
  /* //2017-09-13 추가 */
- /** DR-2023-51868 요금할인(선택약정) 예약 가입 기능 추가 */
  .touch-join .discount-25 {display:block;color:#000;font-weight:bold;font-size:19px;line-height:21px;text-align:center;letter-spacing:-0.050em;} /* Line 330 수정 */
  .touch-join .discount-25desc {margin:25px 0 0 0;padding:25px 0 0 0;border-top:1px solid #666;font-size:15px;text-align:center;line-height:20px;color:#df2428;} /* Line 331 수정 */
  .touch-join .discount-25desc-left {margin:25px 0 0 0;padding:25px 0 0 0;border-top:1px solid #ccc;font-size:15px;line-height:20px;}
@@ -621,7 +582,6 @@ div.endPoint-wrap div.cancel-charge {
  div.endPoint-wrap div.cancel-charge .btn-area {margin:32px 0 0 0;}
  div.endPoint-wrap div.cancel-charge .btn-area a {float:none;}
  
-/* DR-2021-44014 (대외)초고속인터넷 명칭변경 적용-인터넷 요금제명 변경안내 구현 */ 
 ul.information li div.in-head {min-height:25px;line-height:19px;font-weight:bold;}
 
 ul.information li {position:relative;float:left;min-height:70px;padding:0 0 70px;border-left:1px solid #ddd;font-weight:bold;font-size:15px;text-align:center;color:#000;} /* Line 230 수정 */
@@ -629,17 +589,12 @@ ul.information li.join .date {margin:15px 0 0 0;font-size:22px;font-family:'Spoq
 ul.information li .name {display:block;margin:15px 0 0 0;padding:0 10px;font-size:22px;line-height:24px;color:#333;word-break:break-all;font-weight:normal;letter-spacing:-2px;} /* Line 244 수정 */
 ul.information li .mpbs {display:block;position:absolute;bottom:45px;left:0;font-size:13px;}
 
-/* DR-2021-74965 마이페이지 화면과 KOS 실시간 위약금조회 화면 연동개발 - 봉재근 */
 div.cancel-charge div.in-choice {padding:12px 0 0 0;}
 div.cancel-charge div.in-choice-set {padding:7px 0 0 0;}
 div.endPoint-wrap div.cancel-charge label {margin:0 5px 0 0;}
 div.endPoint-wrap div.cancel-charge .date {font-size:15px;font-weight:normal;}
-/* DR-2021-74965 마이페이지 화면과 KOS 실시간 위약금조회 화면 연동개발 - 봉재근 */
-
-/*DR-2022-36499 (마이페이지) OMD 셀프 조회/변경 메뉴 개발*/
 ul.information li.open-model .name {font-size:18px;}
 
-/*DR-2022-미등록 요금할인재약정 페이지 내 신규 온마시 영역 추가*/
 .onmasdiv {width:710px;height:128px;box-sizing:border-box;margin-top:10px;padding:24px 0 0;text-align:center;overflow:hidden;border:solid 2px #bed7f2;border-radius:10px;background:#f1f5fb;}
 .onmasdiv .onmasdiv_optp {line-height:24px;font-size:17px;letter-spacing:-0.42px;font-family:"Spoqa Han Sans Light";font-weight:600;color:#000;}
 .onmasdiv .onmasdiv_tit {margin:2px 0 10px;line-height:27px;font-size:24px;letter-spacing:-1.2px;font-family:"Spoqa Han Sans Bold";color:#000;}
@@ -648,5 +603,3 @@ ul.information li.open-model .name {font-size:18px;}
 .onmasdiv .onmasdiv_mlink:before {content:"";position:absolute;top:50%;right:-10px;width:1.5px;height:8px;margin-top:-1px;background:#222;transform:rotate(45deg);}
 .onmasdiv .onmasdiv_mlink:after {content:"";position:absolute;top:50%;right:-10px;width:1.5px;height:8px;margin-top:-6px;background:#222;transform:rotate(-45deg);}
 .onmasdiv .onmasdiv_mlink span {text-decoration:underline;}
-/*DR-2022-미등록 요금할인재약정 */
-
